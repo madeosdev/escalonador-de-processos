@@ -5,9 +5,7 @@ class Calculus: #Realizará os cálculos hipotéticos dos processos, cujo result
         self._processos = list()
     
     def calculo_FIFO_TME(self, processos) -> None:
-        inicio, calculo = 0, 0
-        for i, processos in enumerate(self._processos):
-            calculo += processos
+        pass
 
     def calculo_FIFO_TMP(self, _processos) -> None:
         pass
