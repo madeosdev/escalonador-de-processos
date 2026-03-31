@@ -21,13 +21,13 @@ while True:
     sleep(3.5)
     tme_fifo, tmp_fifo = calc.processar_fifo(lista_processos)
     tme_sjf, tmp_sjf = calc.processar_sjf(lista_processos)
-    print(('-'*15), 'RESULTADO CÁLCULO DO FIFO', ('-'*10))
+    print(('-'*15), 'RESULTADO CÁLCULO DO FIFO', ('-'*15))
     print(f"TEMPO MÉDIO DE ESPERA: {tme_fifo} segundos.")
     print(f'TEMPO MÉDIO DE PROCESSO: {tmp_fifo} segundos.')
     sleep(2)      
-    print(('-'*15), 'RESULTADO CÁLCULO DO SJF', ('-'*10))
+    print(('-'*15), 'RESULTADO CÁLCULO DO SJF', ('-'*15))
     print(f'TEMPO MÉDIO DE ESPERA: {tme_sjf} segundos. ')
-    print(f'TEMPO MÉDIO DE PROCESSO: {tmp_fifo} segundos')
+    print(f'TEMPO MÉDIO DE PROCESSO: {tmp_sjf} segundos')
 
     escolha = str(input('Quer continuar?[S/N]: ')).upper().strip()
     while escolha not in 'SN':
