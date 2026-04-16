@@ -2,7 +2,7 @@
 # Versão 1.1 lançada!
 Algumas modificações foram feitas, sendo elas:
 - Correção de erros (O programa não mais dá erro se você digitar zero ou números abaixo de zero);
-- Revisões no código, e removeção de linhas de código não-funcionais.
+- Revisões no código, e remoção de linhas de código não-funcionais.
 
 # Versão 1.0 agora já lançada hoje!
 
