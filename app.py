@@ -5,7 +5,7 @@ import calculus
 
 print('-'*40)
 print('Escalonador de Processos by MadeosDev!')
-print('Versão 1.0')
+print('Versão 1.1')
 print('-'*40)
 lista_processos = list()
 calc = calculus.Calculus()
@@ -18,6 +18,7 @@ while True:
         print('ENCERRANDO...')
         sleep(3)
         break
+    
     for i in range(0, num_processos):
         tempo_processo = int(input(f'Qual é o tempo de duração do Processo {i+1}?'))
         lista_processos.append(tempo_processo)

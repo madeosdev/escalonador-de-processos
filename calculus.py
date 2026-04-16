@@ -5,11 +5,10 @@ class Calculus: #Realizará os cálculos hipotéticos dos processos, cujo result
     def calcular_metricas(self, valores:list) -> tuple[float, float]:
         numero_valores = len(valores)
         espera_acumulada = 0
-        tempos_espera = list()
+        
         tempo_atual = 0
 
         for tempo_exec in valores:
-            tempos_espera.append(tempo_atual)
             espera_acumulada += tempo_atual
             tempo_atual += tempo_exec
         
